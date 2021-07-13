@@ -95,7 +95,7 @@
                     llenarFormulario(cursor.value);
 
                     const TituloEditar = document.querySelector('#TituloEditar');
-                    TituloEditar.textContent = "Editar Estudiante: "+cursor.value.nombres+" "+cursor.value.apellidos;
+                    TituloEditar.textContent = "Editar Empleado: "+cursor.value.nombres+" "+cursor.value.apellidos;
                 }
 
                 cursor.continue();
